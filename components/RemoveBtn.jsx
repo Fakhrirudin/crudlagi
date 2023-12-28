@@ -9,7 +9,7 @@ export default function RemoveBtn({ id }) {
     const confirmed = confirm("Are you sure?");
 
     if (confirmed) {
-      const res = await fetch(`https://localhost:3000/api/products?id=${id}`, {
+      const res = await fetch(`https://crudlagi.vercel.app/api/products?id=${id}`, {
         method: "DELETE",
       });
 
