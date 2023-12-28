@@ -5,7 +5,7 @@ import { HiPencilAlt } from "react-icons/hi";
 const getProducts = async () => {
   // const apiUrl = process.env.API_URL;
   try {
-    const res = await fetch(`https://crud-mongodb.up.railway.app/api/products`, {
+    const res = await fetch(`https://localhost:3000/api/products`, {
       cache: "no-store",
     });
 
